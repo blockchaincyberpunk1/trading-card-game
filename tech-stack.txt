@@ -1,0 +1,25 @@
+Tech Stack Summary for Blockchain-Based Trading Card Game:
+
+Blockchain and Smart Contracts
+Ethereum Blockchain: Ethereum is a popular choice due to its robust smart contract capabilities and wide adoption. It supports the ERC-721 standard for NFTs which is perfect for unique trading cards.
+Solidity: Use Solidity to write smart contracts for creating, trading, and battling with the cards. Solidity is the most widely used language for Ethereum smart contracts.
+
+Frontend
+React.js: A powerful JavaScript library for building user interfaces, particularly single-page applications where you can manage state effectively with hooks and context.
+Web3.js or Ethers.js: These libraries connect the web client to the Ethereum blockchain, allowing users to interact with the smart contracts.
+
+Backend 
+Node.js: For any backend logic that isn't handled by smart contracts, Node.js provides an efficient and scalable environment. It's particularly useful if you need to manage off-chain game logic or server-side APIs.
+Express.js: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+Storage
+IPFS: The InterPlanetary File System can be used to store assets like card images and metadata in a decentralized way, ensuring that the game remains censorship-resistant.
+MongoDB: For off-chain data that doesn't need to be stored on the blockchain but needs quick access, MongoDB is a scalable NoSQL database.
+
+Miscellaneous
+Metamask: A crypto wallet and gateway to blockchain apps, necessary for users to interact with the DApp.
+Infura: For accessing Ethereum network without running a full node, Infura provides scalable API access to Ethereum and IPFS.
+
+Development and Testing Tools
+Hardhat: An Ethereum development environment. Considered for advanced testing and debugging of smart contracts.
+Mocha and Chai: For writing and executing automated tests to ensure your smart contracts work as intended.
